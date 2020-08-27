@@ -16,10 +16,10 @@ const enrollControll=(course)=>{
     return (
         <div className="area container">
             <div className="row">
-            <div className="course-area col-7 col-sm-7 col-md-10 col-lg-10">
+            <div className="course-area col-9 col-sm-9 col-md-10 col-lg-10">
                {course.map(item =><Course sent={item} key={item.id} enroll={enrollControll}></Course>)}
              </div>
-            <div className="cart-area col-2 col-sm-2 col-md-2 col-lg-2">
+            <div className="cart-area col-3 col-sm-3 col-md-2 col-lg-2">
             <Cart cart={cart}></Cart>
             </div>
             </div>
