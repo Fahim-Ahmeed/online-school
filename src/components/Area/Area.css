@@ -1,18 +1,13 @@
-.area{
-    display:flex;
-}
+
 .course-area{
-    width:75%;
-    margin-right: 20px;
-    margin-left: 20px;
     border-right: 1px solid lightgray;
     
 
 }
 .cart-area{
-    text-align: center;
+    /* text-align: center; */
 }
 .cart-area{
-    margin-left:10px;
-    padding-bottom: 10px;
+    /* margin-left:10px;
+    padding-bottom: 10px; */
 }
