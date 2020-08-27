@@ -1,0 +1,21 @@
+.total-area{
+    display:flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    padding-bottom:10px;
+}
+.info-area{
+    margin-left: 10px;
+}
+.info-area h4{
+    text-align: center;
+    color:deepskyblue;
+
+}
+.info-area p{
+    text-align:center;
+}
+.info-area h2{
+    color:rgb(84, 128, 231);
+}
