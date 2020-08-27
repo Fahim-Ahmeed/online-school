@@ -19,3 +19,12 @@
 .info-area h2{
     color:rgb(84, 128, 231);
 }
+.enroll-button{
+    background-color:purple;
+    color: white;
+    width:140px;
+    height: 30px;
+    border-radius:5px;
+    border:1px solid gray;
+    cursor:pointer;
+}

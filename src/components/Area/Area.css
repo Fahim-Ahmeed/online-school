@@ -12,3 +12,7 @@
 .cart-area{
     text-align: center;
 }
+.cart-area{
+    margin-left:10px;
+    padding-bottom: 10px;
+}

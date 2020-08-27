@@ -1,5 +1,7 @@
 import React from 'react';
 import'./Course.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUnlock} from '@fortawesome/free-solid-svg-icons'
 
 const Course = (props) => {
     const{name,title,price,image}=props.sent;
@@ -13,6 +15,11 @@ const Course = (props) => {
              <p>{title}</p>
              <br/>
              <h2 style={{fontSize:'bold'}}>${price}</h2>
+             <button className="enroll-button"
+                onClick={()=>props.enroll(props.sent)}             
+             >
+                 <FontAwesomeIcon icon={faUnlock} /> Enroll Now
+                 </button>
             </div>       
         </div>
     );
